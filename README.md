@@ -1,9 +1,9 @@
 # gnome-shell-extension-pip-on-top
-Keeps "Picture-in-Picture" windows always on top in Wayland sessions. Works with most media players on Firefox, Brave (YouTube), etc.
+Keeps "Picture-in-Picture" windows always on top in Wayland sessions. PiP windows are detected by their window title, so most players are supported, including Firefox, Chromium based browsers (Brave, Chrome, Yandex.Browser), Telegram Desktop and the Clapper media player.
 
 Please note that X11 sessions may work, but it is not supported or maintained.
 
-[<img src="https://extensions.gnome.org/static/images/gnome-extensions.2635f103c955.svg" width="25%" height="25%">](https://extensions.gnome.org/extension/4691/pip-on-top)
+[<img alt="Get it on GNOME Extensions" src="https://extensions.gnome.org/static/images/gnome-extensions.2635f103c955.svg" width="25%" height="25%">](https://extensions.gnome.org/extension/4691/pip-on-top)
 
 ## Installation from source code
 Run below in terminal one by one:
