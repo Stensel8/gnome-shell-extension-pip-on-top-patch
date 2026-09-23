@@ -1,5 +1,7 @@
 # gnome-shell-extension-pip-on-top
 
+![icon](icon.png)
+
 > **Note:** This is [Stensel8's](https://github.com/Stensel8) actively maintained fork of the original extension. The upstream maintainer has been inactive for a while and pull requests there aren't being merged, so fixes and improvements land here first. Credit for the original extension goes to [Rafostar](https://github.com/Rafostar/gnome-shell-extension-pip-on-top).
 
 Keeps "Picture-in-Picture" windows always on top in Wayland sessions. PiP windows are detected by their window title, so most players are supported, including Firefox, Chromium based browsers (Brave, Chrome, Yandex.Browser), Telegram Desktop and the Clapper media player.
