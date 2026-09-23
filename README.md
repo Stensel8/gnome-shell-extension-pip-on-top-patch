@@ -14,6 +14,10 @@ Please note that X11 sessions may work, but it is not supported or maintained.
 
 ![A Picture-in-Picture window staying on top while switching between other windows](demo.gif)
 
+## System specs:
+<img width="1948" height="1597" alt="Gnome System specs" src="https://github.com/user-attachments/assets/c1d6b835-0017-40c8-8470-cf893abfa506" />
+
+
 ## Installation
 
 ### From extensions.gnome.org
