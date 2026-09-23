@@ -1,2 +1,4 @@
 locale/
 po/
+schemas/gschemas.compiled
+*.zip
