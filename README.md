@@ -6,21 +6,29 @@ Keeps "Picture-in-Picture" windows always on top in Wayland sessions. PiP window
 
 Please note that X11 sessions may work, but it is not supported or maintained.
 
-Not yet published on extensions.gnome.org under this fork's own listing — install from source below in the meantime. (The badge for the original extension is at [extensions.gnome.org/extension/4691/pip-on-top](https://extensions.gnome.org/extension/4691/pip-on-top), but that listing tracks upstream, not this fork.)
+[<img alt="Get it on GNOME Extensions" src="https://extensions.gnome.org/static/images/gnome-extensions.2635f103c955.svg" width="25%" height="25%">](https://extensions.gnome.org/extension/11013/pip-on-top-patch/)
 
-## Installation from source code
-Run below in terminal one by one:
+(The original extension has its own separate listing at [extensions.gnome.org/extension/4691/pip-on-top](https://extensions.gnome.org/extension/4691/pip-on-top) — that one tracks upstream, not this fork.)
+
+![Screenshot of a Picture-in-Picture window kept on top of other windows](screenshot.webp)
+
+## Installation
+
+### From extensions.gnome.org
+Use the badge above, or install the [browser extension](https://extensions.gnome.org/extension/11013/pip-on-top-patch/) and toggle it on from that page.
+
+### From source
 ```sh
-mkdir -p ~/.local/share/gnome-shell/extensions
-cd ~/.local/share/gnome-shell/extensions
-git clone --branch own-fork "https://github.com/Stensel8/gnome-shell-extension-pip-on-top-patch.git" "pip-on-top-patch@stensel8.github.io"
-cd pip-on-top-patch@stensel8.github.io
-glib-compile-schemas ./schemas/
+git clone --branch own-fork "https://github.com/Stensel8/gnome-shell-extension-pip-on-top-patch.git"
+cd gnome-shell-extension-pip-on-top-patch
+./install.sh
 ```
+`install.sh` copies the extension into `~/.local/share/gnome-shell/extensions/` under the right UUID and compiles its schema for you.
+
 Additionally if you are running Firefox not in English language, execute `translate.sh` script to generate required translations:
 ```sh
 chmod +x translate.sh
 ./translate.sh
 ```
 
-After all is done: logout, login back (or reboot) and enable newly installed extension. Enjoy!
+After all is done: logout, login back (or reboot) and enable the extension with `gnome-extensions enable pip-on-top-patch@stensel8.github.io` (or via the Extensions app). Enjoy!
