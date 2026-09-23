@@ -1,5 +1,5 @@
 {
-  "description": "Keeps \"Picture-in-Picture\" windows always on top in Wayland sessions. PiP windows are detected by their window title, so most players are supported, including Firefox, Chromium based browsers (Brave, Chrome, Yandex.Browser), Telegram Desktop and the Clapper media player. Please note that X11 sessions may work, but it is not supported or maintained.",
+  "description": "Keeps \"Picture-in-Picture\" windows always on top in Wayland sessions. PiP windows are detected by their window title, so most players are supported, including Firefox, Chromium based browsers (Brave, Chrome, Yandex.Browser), Telegram Desktop and the Clapper media player.",
   "extension-id": "pip-on-top-patch",
   "gettext-domain": "pip-on-top",
   "name": "PiP on Top (Patch)",
