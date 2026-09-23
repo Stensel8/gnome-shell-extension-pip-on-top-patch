@@ -21,14 +21,18 @@ Use the badge above, or install the [browser extension](https://extensions.gnome
 ```sh
 git clone --branch own-fork "https://github.com/Stensel8/gnome-shell-extension-pip-on-top-patch.git"
 cd gnome-shell-extension-pip-on-top-patch
-./install.sh
 ```
-`install.sh` copies the extension into `~/.local/share/gnome-shell/extensions/` under the right UUID and compiles its schema for you.
 
-Additionally if you are running Firefox not in English language, execute `translate.sh` script to generate required translations:
+If you're running Firefox in a language other than English, generate translations **before** installing, so `install.sh` picks them up:
 ```sh
 chmod +x translate.sh
 ./translate.sh
 ```
+
+Then install:
+```sh
+./install.sh
+```
+`install.sh` copies the extension into `~/.local/share/gnome-shell/extensions/` under the right UUID and compiles its schema for you. If you run `translate.sh` afterward, re-run `./install.sh` to pick up the generated translations.
 
 After all is done: logout, login back (or reboot) and enable the extension with `gnome-extensions enable pip-on-top-patch@stensel8.github.io` (or via the Extensions app). Enjoy!
