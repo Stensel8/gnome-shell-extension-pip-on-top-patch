@@ -12,7 +12,11 @@ Please note that X11 sessions may work, but it is not supported or maintained.
 
 (The original extension has its own separate listing at [extensions.gnome.org/extension/4691/pip-on-top](https://extensions.gnome.org/extension/4691/pip-on-top) — that one tracks upstream, not this fork.)
 
-![Screenshot of a Picture-in-Picture window kept on top of other windows](screenshot.webp)
+![A Picture-in-Picture window staying on top while switching between other windows](demo.gif)
+
+## System specs:
+<img width="1948" height="1597" alt="Gnome System specs" src="https://github.com/user-attachments/assets/c1d6b835-0017-40c8-8470-cf893abfa506" />
+
 
 ## Installation
 
