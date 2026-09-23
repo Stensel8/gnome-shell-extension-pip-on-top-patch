@@ -6,15 +6,15 @@ Keeps "Picture-in-Picture" windows always on top in Wayland sessions. PiP window
 
 Please note that X11 sessions may work, but it is not supported or maintained.
 
-[<img alt="Get it on GNOME Extensions" src="https://extensions.gnome.org/static/images/gnome-extensions.2635f103c955.svg" width="25%" height="25%">](https://extensions.gnome.org/extension/4691/pip-on-top)
+Not yet published on extensions.gnome.org under this fork's own listing — install from source below in the meantime. (The badge for the original extension is at [extensions.gnome.org/extension/4691/pip-on-top](https://extensions.gnome.org/extension/4691/pip-on-top), but that listing tracks upstream, not this fork.)
 
 ## Installation from source code
 Run below in terminal one by one:
 ```sh
 mkdir -p ~/.local/share/gnome-shell/extensions
 cd ~/.local/share/gnome-shell/extensions
-git clone --branch own-fork "https://github.com/Stensel8/gnome-shell-extension-pip-on-top-patch.git" "pip-on-top@rafostar.github.com"
-cd pip-on-top@rafostar.github.com
+git clone --branch own-fork "https://github.com/Stensel8/gnome-shell-extension-pip-on-top-patch.git" "pip-on-top-patch@stensel8.github.io"
+cd pip-on-top-patch@stensel8.github.io
 glib-compile-schemas ./schemas/
 ```
 Additionally if you are running Firefox not in English language, execute `translate.sh` script to generate required translations:

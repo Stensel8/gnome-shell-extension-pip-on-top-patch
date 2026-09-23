@@ -1,4 +1,4 @@
-UUID="pip-on-top@rafostar.github.com"
+UUID="pip-on-top-patch@stensel8.github.io"
 ZIPFILES="extension.js prefs.js metadata.json schemas locale COPYING"
 
 glib-compile-schemas ./schemas/
